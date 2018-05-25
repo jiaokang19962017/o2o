@@ -1,0 +1,18 @@
+package com.jk.o2o.entity;
+
+import java.util.Date;
+
+public class LocalAuth {
+	//本地id
+	private Long localAuthId;
+	//用户名
+	private String username;
+	//密码
+	private String password;
+	//创建时间
+	private Date createTime;
+	//最后编辑时间
+	private Date lastEditTiem;
+	//用户信息
+	private PersonInfo personInfo;
+}

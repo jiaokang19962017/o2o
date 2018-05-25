@@ -1,0 +1,14 @@
+package com.jk.o2o.entity;
+
+public class Area {
+//ID
+private Integer areaId;
+//名称
+private String areaName;
+//权重
+private Integer priority;
+//创建时间
+private Data createTime;
+//更新时间
+private Data lastEditTime;
+}

@@ -1,0 +1,19 @@
+package com.jk.o2o.entity;
+
+import java.util.Date;
+
+public class ProductCategory {
+/**
+ * 商品类别实体类
+ * */
+	//商品类别id
+	private Long productCategoryId;
+	//店铺id
+	private Long shopId;
+	//商品类别名称
+	private String productCategoryName;
+	//权重
+	private Integer priority;
+	//创建时间
+	private Date creatTime;
+}
